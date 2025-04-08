@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "custom-nexa";
+  src: url("/fonts/Nexa.ttf");
+}
+
+@layer base {
+  :root {
+    --color-background-white: #ffffff;
+    --color-background-black: #000000;
+    --color-glass-light: rgba(255, 255, 255, 0.8);
+    --color-glass-dark: rgba(10, 10, 10, 0.8);
+    --color-text-light: #f5f5f5;
+    --color-text-dark: #0a0a0a;
+    --color-text-secondary: #808080;
+    --color-accent: #b48144;
+    --color-accent-secondary: #96612080;
+    --color-gold-light: #e5c97f;
+    --color-gold-dark: #966020;
+    --color-shadow-light: #8e8e8e33;
+    --color-shadow-dark: #ffffff33;
+  }
+}
+
+.theme-light {
+  --background: var(--color-background-white);
+  --accent: var(--color-accent);
+  --accent-secondary: var(--color-accent-secondary);
+  --text: var(--color-text-dark);
+  --text-secondary: var(--color-text-secondary);
+  --shadow: var(--color-shadow-light);
+  --glass: var(--color-glass-light);
+  --gold-light: var(--color-gold-light);
+  --gold-dark: var(--color-gold-dark);
+  --gold-secondary: var(--color-gold-dark);
+}
+
+.theme-dark {
+  --background: var(--color-background-black);
+  --accent: var(--color-accent);
+  --accent-secondary: var(--color-accent-secondary);
+  --text: var(--color-text-light);
+  --text-secondary: var(--color-text-secondary);
+  --shadow: var(--color-shadow-dark);
+  --glass: var(--color-glass-dark);
+  --gold-light: var(--color-gold-light);
+  --gold-dark: var(--color-gold-dark);
+  --gold-secondary: var(--color-gold-light);
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: var(--text);
+  color: var(--background);
+}
+
+::selection {
+  background: var(--text);
+  color: var(--background);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
