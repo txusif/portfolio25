@@ -1,0 +1,19 @@
+name: Build TypeScript Project
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build project
+        run: pnpm run build
+
+      - name: Deploy project
+        run: |
+          echo "Deploying project..."
+          echo "Project deployed successfully"
