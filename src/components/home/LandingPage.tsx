@@ -35,7 +35,7 @@ export function LandingPage() {
           duration: 0.3,
         }}
       >
-        <Logo width={"w-[80px] md:w-[100px]"} />
+        <Logo width={"w-[80px] h-[81px] md:w-[100px] md:h-[101px]"} />
       </motion.span>
       <motion.span
         initial={

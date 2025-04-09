@@ -21,8 +21,8 @@ export function NavLinkContainer() {
 
   return (
     <motion.header className="flex h-screen select-none flex-col justify-center gap-6 border-l-2 border-background bg-glass shadow-custom-sm backdrop-blur-custom xl:gap-10">
-      <div className=" px-8">
-        <Logo width={" w-[60px]"} />
+      <div className="px-8">
+        <Logo width={"w-[60px] h-[61px]"} />
       </div>
       <nav onClick={() => setIsNavOpen(false)}>
         <ul className="flex flex-col font-vietnam text-sm uppercase tracking-wider xl:text-base">
