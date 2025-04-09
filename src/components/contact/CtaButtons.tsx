@@ -9,7 +9,7 @@ export function CtaButtons() {
       <ButtonPop>
         <Links
           className={`group bg-gradient-to-r from-gold-light to-gold-dark text-background shadow-btn-main outline outline-[1px] transition-all duration-100 hover:outline hover:outline-[1px] hover:outline-accent`}
-          to="mailto:txusif@gmail.com"
+          to="mailto:toushiefansari.dev@gmail.com"
         >
           let&apos;s work together
           <TbMailUp className="text-xl transition-all duration-100 group-hover:text-text" />
