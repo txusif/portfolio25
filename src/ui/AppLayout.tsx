@@ -6,6 +6,8 @@ import { ParticlesBackground } from "../components/particles/ParticlesBackground
 import { NavigationButtons } from "./NavigationButtons";
 import { Navbar } from "../components/navbar/Navbar";
 
+export const resumeUrl = import.meta.env.VITE_RESUME_LINK as string;
+
 export function AppLayout() {
   const { theme, navigation, setIsNavOpen } = useAppContext();
   const route = useNavigation();
