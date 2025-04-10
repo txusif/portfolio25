@@ -12,7 +12,7 @@ export const work = [
     ],
     type: "remote",
     location: "bangalore",
-    links: "https://www.dreambridge.in/",
+    link: "https://www.dreambridge.in/",
   },
   {
     role: "full-stack developer intern",
@@ -28,6 +28,6 @@ export const work = [
     ],
     type: "remote",
     location: "gujarat",
-    links: "https://dataspeaks.tech/",
+    link: "",
   },
 ];

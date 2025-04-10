@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 import { StartEnd } from "./StartEnd";
 import { TypeLocation } from "./TypeLocation";
+import { Link } from "react-router";
 
 interface AccordionHeaderProps {
   isAccordionOpen: number | null;
@@ -14,6 +15,7 @@ interface AccordionHeaderProps {
   end: string;
   type: string;
   location: string;
+  link?: string;
 }
 
 export function AccordionHeader({
@@ -26,6 +28,7 @@ export function AccordionHeader({
   end,
   type,
   location,
+  link,
 }: AccordionHeaderProps) {
   return (
     <div
@@ -44,9 +47,17 @@ export function AccordionHeader({
           >
             {role}
           </h2>
-          <h3 className="text-xs capitalize text-text-secondary xs:text-base ">
-            {company}
-          </h3>
+          {link ? (
+            <Link to={link} target="_blank">
+              <h3 className="text-xs capitalize text-text-secondary xs:text-base">
+                {company}
+              </h3>
+            </Link>
+          ) : (
+            <h3 className="text-xs capitalize text-text-secondary xs:text-base">
+              {company}
+            </h3>
+          )}
         </div>
       </div>
 

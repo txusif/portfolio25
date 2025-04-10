@@ -42,8 +42,16 @@ export function Accordion() {
       animate="show"
     >
       {work.map((xp, i) => {
-        const { role, company, start, end, responsibilities, type, location } =
-          xp;
+        const {
+          role,
+          company,
+          start,
+          end,
+          responsibilities,
+          type,
+          location,
+          link,
+        } = xp;
 
         return (
           <motion.div
@@ -64,6 +72,7 @@ export function Accordion() {
               end={end}
               type={type}
               location={location}
+              link={link}
             />
 
             <AccordionContent
