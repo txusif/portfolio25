@@ -50,7 +50,7 @@ export function Certificate() {
                       opacity: 1,
                       height: "100%",
                       transition: {
-                        duration: 0.3,
+                        duration: 0.1,
                       },
                     }}
                     exit={{
