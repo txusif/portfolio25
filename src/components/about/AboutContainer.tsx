@@ -38,26 +38,31 @@ export function AboutContainer() {
           },
         }}
       >
-        <div className="h-[200px] shadow-card xs:h-auto">
+        {/* <div className="h-[200px] shadow-card xs:h-auto">
           <img
             className="h-full object-cover object-left"
             src={"/vite.svg"}
             alt="toushief ansari"
           />
-        </div>
-        <p className="bg-background p-4 font-vietnam text-sm text-text shadow-card backdrop-blur-custom xs:p-6 xs:text-base lg:absolute lg:right-6 lg:top-6 lg:max-w-[480px] lg:shadow-card lg:outline lg:outline-[1px] lg:outline-accent xl:right-8 xl:top-8 xl:max-w-[660px] ">
+        </div> */}
+        <p className="bg-background p-4 font-vietnam text-sm text-text shadow-card backdrop-blur-custom xs:p-6 xs:text-base lg:absolute lg:right-6 lg:top-6 lg:max-w-[480px] lg:shadow-card lg:outline lg:outline-[1px] lg:outline-accent xl:right-8 xl:top-8 xl:max-w-[660px]">
           I&apos;m an enthusiastic individual based in Mumbai with a passion for
-          coding and continuous learning, specializing in frontend development
-          to create intuitive user interfaces and bring designs to life. While I
-          typically handle both design and development aspects in my personal
-          and freelance projects, my primary focus remains on development.
+          coding, problem-solving, and continuous learning. I specialize in
+          building dynamic web applications, with a strong focus on frontend
+          development-crafting intuitive interfaces and bringing designs to life
+          with clean, maintainable code.
           <br />
           <br />
-          Having previously worked as an image editor and designer for several
-          years, I have transitioned into web development with newfound
-          enthusiasm. I am looking forward to work as a web developer and focus
-          on honing my skills in this exciting field and diving into the world
-          of creating awesome web applications.
+          While I usually take on both design and development in my personal
+          projects, my primary strength and interest lie in frontend and full
+          stack development. I enjoy translating ideas into functional digital
+          experiences using modern technologies.
+          <br />
+          <br />
+          Beyond traditional web development, I'm deeply curious about
+          blockchain and Web3. I'm actively expanding my skill set by exploring
+          decentralized technologies through hands-on projects, self-learning,
+          and certifications.
         </p>
       </motion.div>
       <motion.div
