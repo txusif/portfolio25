@@ -107,12 +107,12 @@ export function AboutContainer() {
         <Paragraph className={"text-center xs:text-left"}>
           Beyond my professional pursuits, I value personal growth and
           well-being through a variety of interests and hobbies. These include
-          maintaining a healthy lifestyle with fitness activities, developing my
-          creative skills in design and editing, and finding relaxation in
-          recreational gaming.
+          maintaining a healthy lifestyle with fitness activities, reading
+          books, exploring new places, doing random research out of curiosity,
+          and finding relaxation in discovering and exploring music.
         </Paragraph>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         className="overflow-hidden outline outline-background "
         initial={{
           y: 40,
@@ -127,7 +127,7 @@ export function AboutContainer() {
         }}
       >
         <img src={"/vite.svg"} alt="toushief ansari" />
-      </motion.div>
+      </motion.div> */}
       <motion.div
         className="flex flex-col gap-2 xs:gap-4"
         initial={{
