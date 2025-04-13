@@ -25,7 +25,7 @@ export function AboutContainer() {
     <Container>
       <PageTitle title={"about"} />
       <motion.div
-        className=" lg:relative"
+        className=""
         initial={{
           y: 40,
           opacity: 0,
@@ -38,14 +38,7 @@ export function AboutContainer() {
           },
         }}
       >
-        {/* <div className="h-[200px] shadow-card xs:h-auto">
-          <img
-            className="h-full object-cover object-left"
-            src={"/vite.svg"}
-            alt="toushief ansari"
-          />
-        </div> */}
-        <p className="bg-background p-4 font-vietnam text-sm text-text shadow-card backdrop-blur-custom xs:p-6 xs:text-base lg:absolute lg:right-6 lg:top-6 lg:max-w-[480px] lg:shadow-card lg:outline lg:outline-[1px] lg:outline-accent xl:right-8 xl:top-8 xl:max-w-[660px]">
+        <p className="bg-background p-4 text-center font-vietnam text-sm text-text shadow-card backdrop-blur-custom xs:text-left xs:text-base">
           I&apos;m an enthusiastic individual based in Mumbai with a passion for
           coding, problem-solving, and continuous learning. I specialize in
           building dynamic web applications, with a strong focus on frontend
@@ -112,22 +105,6 @@ export function AboutContainer() {
           and finding relaxation in discovering and exploring music.
         </Paragraph>
       </motion.div>
-      {/* <motion.div
-        className="overflow-hidden outline outline-background "
-        initial={{
-          y: 40,
-          opacity: 0,
-        }}
-        whileInView={{
-          y: 0,
-          opacity: 1,
-          transition: {
-            duration: 0.3,
-          },
-        }}
-      >
-        <img src={"/vite.svg"} alt="toushief ansari" />
-      </motion.div> */}
       <motion.div
         className="flex flex-col gap-2 xs:gap-4"
         initial={{

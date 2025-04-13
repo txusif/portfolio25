@@ -1,6 +1,6 @@
-import sportSpace from "../assets/projectCover/sport-space.png";
-import cakeCrave from "../assets/projectCover/cake-crave.png";
-import wildOasis from "../assets/projectCover/wild-oasis.png";
+import sportSpace from "/assets/projectCover/sport-space.png";
+import cakeCrave from "/assets/projectCover/cake-crave.png";
+import wildOasis from "/assets/projectCover/wild-oasis.png";
 // import wildOasisClient from "../assets/projectCover/wild-oasis-client.png";
 
 export const projects = [
