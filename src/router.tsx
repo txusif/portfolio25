@@ -1,11 +1,13 @@
 import { createBrowserRouter } from "react-router";
 import { AppLayout } from "./ui/AppLayout";
-import { Home } from "./pages/Home";
-import { Projects } from "./pages/Projects";
-import { Experience } from "./pages/Experience";
-import { Contact } from "./pages/Contact";
-import { About } from "./pages/About";
-import { Qualification } from "./pages/Qualification";
+import {
+  Home,
+  Projects,
+  Experience,
+  Contact,
+  About,
+  Qualification,
+} from "./pages";
 
 export const router = createBrowserRouter([
   {
