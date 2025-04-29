@@ -1,7 +1,8 @@
-import sportSpace from "/assets/projectCover/sport-space.png";
+// import sportSpace from "/assets/projectCover/sport-space.png";
 import cakeCrave from "/assets/projectCover/cake-crave.png";
 import wildOasis from "/assets/projectCover/wild-oasis.png";
 // import wildOasisClient from "../assets/projectCover/wild-oasis-client.png";
+import mediChain from "/assets/projectCover/medi-chain.png";
 
 export const projects = [
   {
@@ -21,26 +22,42 @@ export const projects = [
       "supabase",
     ],
   },
+  // {
+  //   name: "Sportspace",
+  //   image: sportSpace,
+  //   projectLink: "https://sportspace.txusif.me/",
+  //   githubLink: "https://github.com/txusif/SportSpace",
+  //   description:
+  //     "SportSpace is a user-friendly platform for booking football and cricket turfs. It features an intuitive calendar interface for selecting and reserving time slots. Users can sign in using Google Auth, and the backend is powered by Supabase.",
+  //   skills: [
+  //     "react",
+  //     "nextjs",
+  //     "typeScript",
+  //     "tailwind css",
+  //     "supabase",
+  //     "google auth",
+  //   ],
+  // },
   {
-    name: "Sportspace",
-    image: sportSpace,
-    projectLink: "https://sportspace.txusif.me/",
-    githubLink: "https://github.com/txusif/SportSpace",
+    name: "Medichain",
+    image: mediChain,
+    projectLink: "https://medichain.txusif.me/",
+    githubLink: "https://github.com/txusif/MediChain",
     description:
-      "SportSpace is a user-friendly platform for booking football and cricket turfs. It features an intuitive calendar interface for selecting and reserving time slots. Users can sign in using Google Auth, and the backend is powered by Supabase.",
+      "MediChain is a decentralized healthcare app for secure medical record storage on blockchain. It offers role-based access for patients, doctors, and labs, with features for uploading reports, creating medical crowdfunding campaigns, and wallet integration through Metamask. Built with React and Thirdweb on Polygon Mumbai.",
     skills: [
       "react",
-      "nextjs",
-      "typeScript",
+      "javaScript",
       "tailwind css",
-      "supabase",
-      "google auth",
+      "react router",
+      "react router",
+      "thirdweb",
     ],
   },
   {
     name: "The Wild Oasis",
     image: wildOasis,
-    projectLink: "https://the-wild-oasis.txusif.me/dashboard",
+    projectLink: "https://the-wild-oasis.txusif.me/",
     githubLink: "https://github.com/txusif/the-wild-oasis",
     description:
       "The Wild Oasis is an admin dashboard for managing hotel bookings. It includes features for checking guests in/out, tracking stays, and viewing revenue metrics. Dynamic charts built with Recharts and React Query ensure efficient state handling and insightful analytics.",

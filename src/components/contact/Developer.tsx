@@ -1,10 +1,10 @@
 export function Developer() {
   return (
-    <div className="flex flex-col gap-2 font-vietnam capitalize text-center xs:text-left xs:gap-4">
+    <div className="flex flex-col gap-2 text-center font-vietnam capitalize xs:gap-4 xs:text-left">
       <span className=" text-sm text-text-secondary xs:text-base">
-        designed & developed by
+        developed by
       </span>
-      <span className=" text-xs font-semibold text-center font-vietnam uppercase xs:text-left bg-clip-text text-transparent bg-gradient-to-r from-gold-light to-gold-dark xs:text-base ">
+      <span className=" bg-gradient-to-r from-gold-light to-gold-dark bg-clip-text text-center font-vietnam text-xs font-semibold uppercase text-transparent xs:text-left xs:text-base ">
         toushief ansari
       </span>
     </div>

@@ -14,7 +14,7 @@ export const skills = [
         "redux",
         "react query",
         "tailwind css",
-        "graphql",
+        // "graphql",
         "framer motion",
       ],
     },

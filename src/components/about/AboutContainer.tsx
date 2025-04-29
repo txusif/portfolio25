@@ -83,6 +83,26 @@ export function AboutContainer() {
         <Skills field={skillFiveField} tools={skillFiveTools} />
       </motion.div>
       <motion.div
+        className="flex flex-col gap-2 xs:gap-3"
+        initial={{
+          y: 40,
+          opacity: 0,
+        }}
+        whileInView={{
+          y: 0,
+          opacity: 1,
+          transition: {
+            duration: 0.3,
+          },
+        }}
+      >
+        <PageTitleSecondary title={"currently learning"} />
+        <Paragraph className={"text-center xs:text-left"}>
+          I'm learning React Native through Simon Grimm's course at galaxies.dev
+          to expand my skills in cross-platform mobile development.
+        </Paragraph>
+      </motion.div>
+      <motion.div
         className=" flex flex-col gap-2 xs:gap-3"
         initial={{
           y: 40,
