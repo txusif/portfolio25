@@ -8,7 +8,7 @@ export const projects = [
   {
     name: "cakecrave",
     image: cakeCrave,
-    projectLink: "https://cakecrave.txusif.me/",
+    projectLink: "https://cakecrave.vercel.app",
     githubLink: "https://github.com/txusif/cakecrave",
     description:
       "CakeCrave is a food ordering app where users can order for cakes. The remote state of the application is managed with react query and the form validation using react hook form. The backend is powered by supabase.",
@@ -25,7 +25,7 @@ export const projects = [
   // {
   //   name: "Sportspace",
   //   image: sportSpace,
-  //   projectLink: "https://sportspace.txusif.me/",
+  //   projectLink: "https://sportspacebytxusif.vercel.app",
   //   githubLink: "https://github.com/txusif/SportSpace",
   //   description:
   //     "SportSpace is a user-friendly platform for booking football and cricket turfs. It features an intuitive calendar interface for selecting and reserving time slots. Users can sign in using Google Auth, and the backend is powered by Supabase.",
@@ -41,7 +41,7 @@ export const projects = [
   {
     name: "Medichain",
     image: mediChain,
-    projectLink: "https://medichain.txusif.me/",
+    projectLink: "https://medichain-app.vercel.app",
     githubLink: "https://github.com/txusif/MediChain",
     description:
       "MediChain is a decentralized healthcare app for secure medical record storage on blockchain. It offers role-based access for patients, doctors, and labs, with features for uploading reports, creating medical crowdfunding campaigns, and wallet integration through Metamask. Built with React and Thirdweb on Polygon Mumbai.",
@@ -57,7 +57,7 @@ export const projects = [
   {
     name: "The Wild Oasis",
     image: wildOasis,
-    projectLink: "https://the-wild-oasis.txusif.me/",
+    projectLink: "https://the-wild-oasis-txusif.vercel.app",
     githubLink: "https://github.com/txusif/the-wild-oasis",
     description:
       "The Wild Oasis is an admin dashboard for managing hotel bookings. It includes features for checking guests in/out, tracking stays, and viewing revenue metrics. Dynamic charts built with Recharts and React Query ensure efficient state handling and insightful analytics.",
@@ -73,7 +73,7 @@ export const projects = [
   // {
   //   name: "The Wild Oasis Client",
   //   image: wildOasisClient,
-  //   projectLink: "https://the-wild-oasis-next.txusif.me/",
+  //   projectLink: "https://the-wild-oasis-next-client.vercel.app",
   //   githubLink: "https://github.com/txusif/the-wild-oasis-next",
   //   description:
   //     "",
