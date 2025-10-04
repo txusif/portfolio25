@@ -1,6 +1,6 @@
 export const work = [
   {
-    role: "front-end engineer",
+    role: "founding front-end engineer",
     company: "Dreambridge",
     start: "jan 2025",
     end: "present",
