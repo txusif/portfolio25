@@ -40,7 +40,7 @@ export default {
       },
     },
     fontFamily: {
-      sans: ["custom-nexa", "sans-serif"],
+      sans: ["Outfit", "sans-serif"],
       vietnam: ["Be Vietnam Pro", "sans-serif"],
     },
   },
