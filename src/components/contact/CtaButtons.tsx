@@ -18,7 +18,7 @@ export function CtaButtons() {
       </ButtonPop>
       <ButtonPop>
         <Links
-          to={"/resume/toushief_ansari_resume2026.pdf"}
+          to={"/resume/toushief_resume_updated_june26.pdf"}
           className={
             "group min-w-[228px] text-text outline outline-[1px] transition-all duration-100"
           }
