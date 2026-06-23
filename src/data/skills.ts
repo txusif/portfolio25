@@ -12,10 +12,11 @@ export const skills = [
         "react",
         "next js",
         "redux",
+        "zustand",
         "react query",
         "tailwind css",
         // "graphql",
-        "framer motion",
+        "react native",
       ],
     },
     skillThree: {
