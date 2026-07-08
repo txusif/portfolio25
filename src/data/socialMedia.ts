@@ -8,7 +8,7 @@ export const socialMedia = [
     link: "https://github.com/txusif",
   },
   {
-    name: "X",
+    name: "Twitter/X",
     link: "https://x.com/txusif",
   },
   {
